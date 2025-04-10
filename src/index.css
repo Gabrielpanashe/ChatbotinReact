@@ -36,4 +36,126 @@ body{
     background: #6AD4FC;
 }
 
-/*09:14*/
+.chatbot-header .header-info{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.header-info svg{
+    height: 35px;
+    width: 35px;
+    padding: 2px;
+    background: rgb(244, 241, 241);
+    border-radius: 50%;
+    flex-shrink:0 ;
+    fill: #27509e;
+
+
+}
+.header-info .logo-text{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.chatbot-header button{
+    height:40px;
+    width: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: none;
+    border-radius: 45%;
+    margin-right: -10px;
+    cursor: pointer;
+    padding: 2px;
+    transition: 0.2s ease;
+
+}
+.chatbot-header button:hover{
+    background: #53c3ec;
+}
+.chat-body{
+    height: 460px;
+    overflow-y: auto;
+    padding: 25px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+   
+
+}
+.chat-body .message{
+    height: 460px;
+    gap:10px;
+    align-items: center;
+    max-width: 80%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+
+}
+.chat-body .bot-message svg{
+    height: 35px;
+    width: 35px;
+    padding: 6px;
+    background: rgb(244, 241, 241);
+    border-radius: 50%;
+    flex-shrink:0 ;
+    fill: #27509e;
+    background-color: #fff;
+
+
+}
+.chat-body .bot-message{
+   
+    color: #27509e;
+    margin-left: auto;
+    
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+} 
+.chat-body .message .message-text{
+   
+    padding: 12px 15px;
+    max-width: 100%;
+    background: #cedfe6;
+    border-radius: 20px 20px 20px 20px;
+    word-wrap: break-word;
+}
+.chat-body.bot-message .message-text{
+    background: #F6F2FF;
+    border-radius: 13px 13px 13px 3px;
+}
+.chat-body .user-message .message-text{
+    color: #FFF;
+    background: #FD4FC2;
+    border-radius: 13px 13px 13px 13px;
+}
+.chat-body .user-message{
+    flex-direction: column;
+    align-items:flex-end ;
+    
+}
+.chat-body .user-message svg{
+    height: 35px;
+    width: 35px;
+    padding: 6px;
+    background: rgb(244, 241, 241);
+    border-radius: 50%;
+    flex-shrink:0 ;
+    fill: #27509e;
+    background-color: #fff;
+
+
+
+}
+
+.chat-body .user-message .message-text{
+    background: #cedfe6;
+    border-radius: 13px 13px 13px 13px;
+}
+
+
